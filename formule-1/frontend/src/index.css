@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Dark mode via class toggle (ThemeToggle adds/removes .dark on <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Brand theme variables — customize here per client.
+  These map to Tailwind utility classes: bg-brand, text-brand, etc.
+*/
+@theme {
+  --color-brand:        #3b82f6;
+  --color-brand-dark:   #2563eb;
+
+  --color-bg:           #ffffff;
+  --color-bg-dark:      #0f172a;
+
+  --color-surface:      #f8fafc;
+  --color-surface-dark: #1e293b;
+
+  --color-text:         #1e293b;
+  --color-text-dark:    #f1f5f9;
+
+  --color-muted:        #64748b;
+  --color-muted-dark:   #94a3b8;
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
