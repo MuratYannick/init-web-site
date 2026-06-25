@@ -1,6 +1,9 @@
 # Claude Code
 CLAUDE.md
 
+# Roadmap (local only)
+roadmap/
+
 # Dependencies
 node_modules/
 .pnp
